@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    border-radius: 100%;
+    margin-top: 30px;
+}
+.logos{
+    border-radius: 100%;
+    width: 50%;
+    margin-left: 50px;
+}
+.img{
+    height: 300px !important;
+    width: 80% !important;
+    border-radius: 5px;
+}
+.imgs{
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 5px;
+    margin-left: -80px !important;
+}
+.logoss{
+    border-radius: 100%;
+    width: 50%;
+}
+.log{
+    width: 30% !important;
+    border-radius: 100% !important;
+}
+.pic{
+    margin-top: 50px;
+}
+.rows{
+    margin-top: 70px;
+}
+.rowss{
+    margin-top: 30px;
+}
+.iii{
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+    height: 200px !important;
+    width: 70%;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(red, yellow, blue) !important;
+}
+.iii:hover{
+    transform: scale(1.5);
+    transition: .2s linear;
+}
+.vid{
+    margin-top: 100px;
+}
+
+.video-corn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.video-corn .video:hover{
+    transform: scale(1.5);
+    transition: .2s linear;
+}
+
+.video-corn .video{
+    height: 15rem;
+    width: 25rem;
+    margin: 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.5) ;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.video-corn .video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (min-width: 280px) and (max-width: 575px) {
+    .iii{
+        border-radius: 5px;
+        width: 100%;
+        height: 100% !important;
+        margin-top: 20px;
+    }
+    .iii:hover{
+        transform: none;
+        transition: none;
+    }
+    .rows{
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .iii{
+        border-radius: 5px;
+        width: 100%;
+        height: 100% !important;
+        margin-top: 20px;
+    }
+    .iii:hover{
+        transform: none;
+        transition: none;
+    }
+    .rows{
+        margin-top: 10px;
+    } 
+}
