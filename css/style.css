@@ -88,6 +88,28 @@
     cursor: pointer;
 }
 
+.jpeg{
+    opacity: 0.6;
+    position: relative;
+}
+
+.the{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: cursive;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+
 @media (min-width: 280px) and (max-width: 575px) {
     .iii{
         border-radius: 5px;
@@ -101,6 +123,10 @@
     }
     .rows{
         margin-top: 10px;
+    }
+    .the{
+       display: none;
+    
     }
 }
 
@@ -118,4 +144,8 @@
     .rows{
         margin-top: 10px;
     } 
+    .the{
+        display: none;
+     
+     }
 }
